@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    position: relative;
+    top: 240px;
+    margin: 3rem 20%;
+    color: rgb(34, 34, 34);
+}
+
+#body-top {
+    display: grid;
+    grid: repeat(2, 50%) / auto-flow 50%;
+    gap: 4rem;
+}
+
+.body-block {
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+    overflow: auto;
+    height: 200px;
+
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-top: 10px;
+}
+
+#summary{
+    border-left: solid 3px rgba(108, 91, 123);
+}
+
+#education {
+    border-left: solid 3px rgba(192, 108, 132);
+}
+
+#experience {
+    border-left: solid 3px rgba(246, 114, 128);
+}
+
+#skills {
+    border-left: solid 3px rgba(248, 177, 149);
+}
+
+#link-buttons {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+button {
+    display: inline-block;
+    height: 50px;
+    padding: 0 30px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(245, 245, 245, 1);
+    box-shadow: 0 0 10px rgba(34, 34, 34, 0.5);
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.5),
+              0 0 25px rgba(34, 34, 34, 0.5),
+              0 0 50px rgba(34, 34, 34, 0.5),
+              0 0 100px rgba(34, 34, 34, 0.5);
+   }
+
+
+
